@@ -181,6 +181,7 @@ h6 {
 }
 
 .form__input {
+  -webkit-appearance: none;
   -webkit-box-flex: 1;
       -ms-flex: 1 1 auto;
           flex: 1 1 auto;
@@ -224,13 +225,13 @@ h6 {
 }
 
 .form__input:focus {
-  -webkit-box-shadow: 0 0 0.625rem #3461FF;
-          box-shadow: 0 0 0.625rem #3461FF;
+  -webkit-box-shadow: 0 0 0.625rem #3461FF !important;
+          box-shadow: 0 0 0.625rem #3461FF !important;
 }
 
 ._form-error .form__input {
-  -webkit-box-shadow: 0 0 0.625rem red;
-          box-shadow: 0 0 0.625rem red;
+  -webkit-box-shadow: 0 0 0.625rem red !important;
+          box-shadow: 0 0 0.625rem red !important;
 }
 
 .form__button {
